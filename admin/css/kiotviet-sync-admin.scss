@@ -1,0 +1,142 @@
+.kvsync-wrapper {
+  margin-top: 20px;
+  h2.kv-title-top {
+    font-size: 16px;
+    background: #cfe0dc;
+    color: #000;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-left: 5px solid #009200;
+  }
+  // product
+  th.column-img,
+  td.column-img {
+    width: 60px;
+    text-align: center;
+    white-space: nowrap;
+    > img {
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+    }
+  }
+  .wp-core-ui .button.button-danger {
+    color: #fff;
+    background: #ff4e4e;
+    border-color: #ff4e4e;
+  }
+  .stock_status.instock {
+    color: #7ad03a;
+  }
+  .stock_status.outofstock {
+    color: #a44;
+  }
+  .stock_status.onbackorder {
+    color: #eaa600;
+  }
+
+  // order
+  .order-status {
+    display: -webkit-inline-box;
+    display: inline-flex;
+    line-height: 2.5em;
+    color: #777;
+    background: #e5e5e5;
+    border-radius: 4px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    margin: -0.25em 0;
+    cursor: inherit !important;
+    white-space: nowrap;
+    max-width: 100%;
+  }
+
+  .order-status.status-completed {
+    background: #c8d7e1;
+    color: #2e4453;
+  }
+
+  .order-status.status-on-hold {
+    background: #f8dda7;
+    color: #94660c;
+  }
+
+  .order-status.status-failed {
+    background: #eba3a3;
+    color: #761919;
+  }
+
+  .order-status.status-processing {
+    background: #c6e1c6;
+    color: #5b841b;
+  }
+
+  .order-status.status-trash {
+    background: #eba3a3;
+    color: #761919;
+  }
+
+  .order-status > span {
+    margin: 0 1em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .detail-log {
+    word-break: break-all;
+    margin-bottom: 0px;
+  }
+
+  // webhook
+  span.active {
+    color: #7ad03a;
+    font-weight: bold;
+  }
+
+  span.active-mykiot {
+    color: orange;
+    font-weight: bold;
+  }
+
+  span.no-active {
+    color: red;
+    font-weight: bold;
+  }
+}
+
+// log
+.modal.log-modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+    overflow: scroll;
+    height: 600px;
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "require": {
+        "citigo/kiotviet-php-sdk": "1.0.*"
+    },
+    "require-dev": {
+        "php-stubs/woocommerce-stubs": "^5.4"
+    }
+}

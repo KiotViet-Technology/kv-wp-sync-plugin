@@ -1,0 +1,9 @@
+{
+	"name": "vue-select",
+	"version": "3.0.2",
+	"description": "Everything you wish the HTML <select> element could do, wrapped up into a lightweight, extensible Vue component.",
+	"author": "Jeff Sagal <sagalbot@gmail.com>",
+	"private": false,
+	"main": "dist/vue-select.js",
+	"license": "MIT"
+ }

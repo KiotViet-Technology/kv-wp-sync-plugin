@@ -1,0 +1,139 @@
+.kvsync-wrapper {
+  margin-top: 20px;
+  /* The Close Button */
+}
+.kvsync-wrapper h2.kv-title-top {
+  font-size: 16px;
+  background: #cfe0dc;
+  color: #000;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-left: 5px solid #009200;
+}
+.kvsync-wrapper th.column-img,
+.kvsync-wrapper td.column-img {
+  width: 60px;
+  text-align: center;
+  white-space: nowrap;
+}
+.kvsync-wrapper th.column-img > img,
+.kvsync-wrapper td.column-img > img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.kvsync-wrapper .wp-core-ui .button.button-danger {
+  color: #fff;
+  background: #ff4e4e;
+  border-color: #ff4e4e;
+}
+.kvsync-wrapper .stock_status.instock {
+  color: #7ad03a;
+}
+.kvsync-wrapper .stock_status.outofstock {
+  color: #a44;
+}
+.kvsync-wrapper .stock_status.onbackorder {
+  color: #eaa600;
+}
+.kvsync-wrapper .order-status {
+  display: -webkit-inline-box;
+  display: inline-flex;
+  line-height: 2.5em;
+  color: #777;
+  background: #e5e5e5;
+  border-radius: 4px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  margin: -0.25em 0;
+  cursor: inherit !important;
+  white-space: nowrap;
+  max-width: 100%;
+}
+.kvsync-wrapper .order-status.status-completed {
+  background: #c8d7e1;
+  color: #2e4453;
+}
+.kvsync-wrapper .order-status.status-on-hold {
+  background: #f8dda7;
+  color: #94660c;
+}
+.kvsync-wrapper .order-status.status-failed {
+  background: #eba3a3;
+  color: #761919;
+}
+.kvsync-wrapper .order-status.status-processing {
+  background: #c6e1c6;
+  color: #5b841b;
+}
+.kvsync-wrapper .order-status.status-trash {
+  background: #eba3a3;
+  color: #761919;
+}
+.kvsync-wrapper .order-status > span {
+  margin: 0 1em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.kvsync-wrapper .close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.kvsync-wrapper .close:hover,
+.kvsync-wrapper .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.kvsync-wrapper .detail-log {
+  word-break: break-all;
+  margin-bottom: 0px;
+}
+.kvsync-wrapper span.active {
+  color: #7ad03a;
+  font-weight: bold;
+}
+.kvsync-wrapper span.active-mykiot {
+  color: orange;
+  font-weight: bold;
+}
+.kvsync-wrapper span.no-active {
+  color: red;
+  font-weight: bold;
+}
+
+.modal.log-modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+  /* Modal Content */
+}
+.modal.log-modal .modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 60%;
+  overflow: scroll;
+  height: 600px;
+}
+
+/*# sourceMappingURL=kiotviet-sync-admin.css.map */
